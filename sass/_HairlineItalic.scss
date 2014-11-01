@@ -1,0 +1,8 @@
+/* BEGIN Hairline Italic */
+@font-face {
+	font-family: "Lato";
+	@include fontdef($FontPath, $FontName, $FontVersion, "HairlineItalic");
+	font-weight: 100;
+	font-style: italic;
+}
+/* END Hairline Italic */

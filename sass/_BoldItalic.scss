@@ -1,0 +1,8 @@
+/* BEGIN Bold Italic */
+@font-face {
+	font-family: "Lato";
+	@include fontdef($FontPath, $FontName, $FontVersion, "BoldItalic");
+	font-weight: 700;
+	font-style: italic;
+}
+/* END Bold Italic */

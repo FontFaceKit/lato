@@ -1,0 +1,8 @@
+/* BEGIN Black */
+@font-face {
+	font-family: "Lato";
+	@include fontdef($FontPath, $FontName, $FontVersion, "Black");
+	font-weight: 900;
+	font-style: normal;
+}
+/* END Black */
