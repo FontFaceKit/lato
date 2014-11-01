@@ -1,13 +1,4 @@
-@mixin fontdef($FontPath, $FontName, $FontVersion, $FontType:"Regular") {
-  src:  url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.eot?v=#{$FontVersion}');
-  src:  url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.eot?#iefix&v=#{$FontVersion}') format('embedded-opentype'),
-        url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff'),
-        url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.ttf?v=#{$FontVersion}') format('truetype'),
-        url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.svg?v=#{$FontVersion}##{$FontName}#{$FontType}') format('svg');
-}
-
-@mixin fontdef-woff($FontPath, $FontName, $FontVersion:"1.0.0", $FontType:"Regular") {
-	src:	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff'),
-			url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.ttf?v=#{$FontVersion}') format('truetype');
+@mixin fontdef($FontPath, $FontName, $FontVersion:"1.0.0", $FontType:"Regular") {
+	src:	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff?v=#{$FontVersion}') format('woff');
 }
 
