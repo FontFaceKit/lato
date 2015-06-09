@@ -1,0 +1,27 @@
+{
+  "name": "lato-fontface",
+  "version": "0.1.3",
+  "main": [
+    "./lato.css",
+    "./fonts/**/*"
+  ],
+  "homepage": "https://github.com/FontFaceKit/lato",
+  "authors": [
+    "Robert Main"
+  ],
+  "description": "The Lato fontface kit",
+  "keywords": [
+    "font",
+    "lato",
+    "kit",
+    "font-face"
+  ],
+  "license": "SIL Open Font License v1.10",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
