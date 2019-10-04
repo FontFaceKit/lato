@@ -1,4 +1,4 @@
-# Roboto @font-face kit
+# Lato @font-face kit
 
 I split the SASS file, so the developer can decide which fonts and styles he really needs.
 
